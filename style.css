@@ -1,104 +1,59 @@
-
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .container{
-    height: 50px;
-    width: 450px;
-    background-color: rgba(225, 89, 89, 0.603);
-    display: flex;
-    background: linear-gradient(to bottom , rgb(214, 149, 149), rgb(254, 254, 255), rgb(214, 149, 149));
-  
-    box-shadow: 0 0 30px rgb(160, 107, 107);
-    margin: 100px;
+    margin-left: 300px;
 }
-.red1{
-    height: 50px;
-    width: 100px;
-    background-color: rgb(225, 71, 71);
+h1{
+    margin-left: 310px;
 }
-.black1{
-    height: 50px;
-    width: 10px;
-    background-color: black;
+.box{
+    
+    height: 30px;
+    width: 300px;
+    box-shadow: 0 0 30px 5px rgb(160, 122, 122);
+
 }
-.black2{
-    height: 50px;
-    width: 10px;
-    background-color: black;
-    margin-left: 7px;
+.box1{
+    display: inline-flex;
+    background: linear-gradient( to bottom , pink , rgb(248, 245, 245) , pink);
+    margin-bottom: 10px;
 }
-.red2{
-    height: 50px;
-    width: 60px;
-    background-color:rgb(225, 71, 71);
-    margin-left: 290px;
+.box2{
+    display: inline-flex;
+    background: linear-gradient( to bottom , rgb(108, 177, 94) , rgb(193, 216, 188) ,  rgb(108, 177, 94));
+    margin-bottom: 10px;
 }
-.container1{
-    height: 50px;
-    width: 450px;
-    background-color: rgba(64, 161, 67, 0.603);
-    display: flex;
-    background: linear-gradient(to bottom , rgb(165, 224, 138), rgb(254, 254, 255), rgb(165, 224, 138));
-  
-    box-shadow: 0 0 30px rgb(64, 161,67, 0.603);
-    margin: 100px;
-}
-.green1{
-    height: 50px;
-    width: 100px;
-    background-color: rgb(97, 170, 75);
-}
-.black3{
-    height: 50px;
-    width: 10px;
-    background-color: black;
-}
-.black4{
-    height: 50px;
-    width: 10px;
-    background-color: black;
-    margin-left: 7px;
-}
-.green2{
-    height: 50px;
-    width: 60px;
-    background-color: rgb(97, 170, 75);
-    margin-left: 290px;
+.box3{
+    display: inline-flex;
+    background: linear-gradient( to bottom , rgb(128, 127, 206) , rgb(193, 216, 188) ,  rgb(128, 127, 206));
+    margin-bottom: 10px;
 }
 
-.container2{
-    height: 50px;
-    width: 450px;
-    background-color: rgba(64, 161, 67, 0.603);
-    display: flex;
-    background: linear-gradient(to bottom ,rgb(138, 144, 224), rgb(254, 254, 255), rgb(138, 144, 224));
-  
-    box-shadow: 0 0 30px rgba(139, 105, 225, 0.603);
-    margin: 100px;
+.box1_1{
+    height: 30px;
+    background:linear-gradient( to bottom , rgb(197, 13, 44) , rgb(209, 151, 151) , rgb(180, 13, 41));
 }
-.blue1{
-    height: 50px;
-    width: 100px;
-    background-color: rgb(71, 82, 232);
+.box2_1{
+    height: 30px;
+    background:linear-gradient( to bottom , rgb(68, 202, 15) , rgb(161, 194, 146) , rgb(68, 202, 15));
 }
-.black5{
-    height: 50px;
-    width: 10px;
+.box3_1{
+    height: 30px;
+    background:linear-gradient( to bottom , rgb(32, 14, 199) , rgb(110, 114, 172) , rgb(32, 14, 199));
+}
+.part1_1{
+    width: 80px;
+}
+.part2{
+    height: 30px;
     background-color: black;
 }
-.black6{
-    height: 50px;
-    width: 10px;
-    background-color: black;
-    margin-left: 7px;
+.part2_1{
+    width: 5px;
 }
-.blue2{
-    height: 50px;
-    width: 60px;
-    background-color:  rgb(71, 82, 232);
-    margin-left: 290px;
+.part2_2{
+    margin-left: 5px;
+    width: 5px;
+}
+.part1_2{
+    margin-left: 170px;
+    width: 40px;
 }
